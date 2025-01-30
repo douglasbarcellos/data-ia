@@ -243,10 +243,11 @@ body {
 
 /* Contact Info Styles */
 .contact-info {
-  padding: 2rem;
   background-color: #f8f9fa;
-  border-radius: 0.5rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .contact-info .h5 {
